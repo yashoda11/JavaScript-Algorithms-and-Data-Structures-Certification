@@ -38,4 +38,4 @@ function trueOrFalse(wasThatTrue) {
   }
 
 var wasThatTrue = true;
-  console.log(trueOrFalse(wasThatTrue));
+console.log(trueOrFalse(wasThatTrue));
