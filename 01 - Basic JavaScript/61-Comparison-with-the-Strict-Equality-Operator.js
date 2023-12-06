@@ -20,4 +20,4 @@ function testStrict(val) {
     return "Not Equal";
   }
   
-  testStrict(10);
+console.log(testStrict(10));
