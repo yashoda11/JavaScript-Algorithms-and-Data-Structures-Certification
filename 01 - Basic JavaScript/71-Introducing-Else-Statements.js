@@ -4,7 +4,6 @@
 
 // if (num > 10) {
 //   return "Bigger than 10";
-
 // } else {
 //   return "10 or Less";
 // }
@@ -16,6 +15,7 @@
 // SOLUTION :
 
 function testElse(val) {
+
     let result = "";
     // Only change code below this line
   
@@ -33,6 +33,7 @@ function testElse(val) {
   
 var val = 4;
 var result = testElse(val);
+
 console.log(`
 The given number ${val} is ${result}
 `);
