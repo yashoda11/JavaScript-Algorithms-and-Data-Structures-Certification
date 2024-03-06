@@ -40,3 +40,13 @@ if(strokes === 1){
 }
 
 golfScore(5, 4);
+golfScore(4, 1);
+golfScore(4, 2);
+golfScore(4, 3);
+golfScore(5, 2);
+golfScore(4, 4);
+golfScore(4, 6);
+golfScore(5, 5);
+golfScore(4, 7);
+golfScore(1, 1);
+golfScore(5, 9);
