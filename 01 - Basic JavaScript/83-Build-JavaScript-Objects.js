@@ -26,3 +26,14 @@
 
 // You can set these object properties to whatever values you want, as long as name is a string, legs and tails are numbers, and friends is an array.
 
+// SOLUTION 
+
+const myDog = {
+    // Only change code below this line
+  name : "Rinky",
+  tails : 2,
+  legs : 4,
+  friends : ["hello", "Tommy"]
+  
+    // Only change code above this line
+  };
