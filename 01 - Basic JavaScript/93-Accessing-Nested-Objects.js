@@ -20,5 +20,27 @@
 // ourStorage.desk.drawer;
 // ourStorage.cabinet["top drawer"].folder2 would be the string secrets, and ourStorage.desk.drawer would be the string stapler.
 
+// QUESTION :
+
 // Access the myStorage object and assign the contents of the glove box property to the gloveBoxContents variable. Use dot notation for all properties where possible, otherwise use bracket notation.
 
+// TEST CASES :
+// gloveBoxContents should equal the string maps.
+// Passed:Your code should use dot notation, where possible, to access myStorage.
+// Passed:gloveBoxContents should still be declared with const.
+// Passed:You should not change the myStorage object.
+
+// SOLUTION :
+const myStorage = {
+    "car": {
+      "inside": {
+        "glove box": "maps",
+        "passenger seat": "crumbs"
+       },
+      "outside": {
+        "trunk": "jack"
+      }
+    }
+  };
+  
+  const gloveBoxContents = myStorage.car.inside["glove box"];
