@@ -20,5 +20,34 @@
 
 // Note: You will need to place a comma after every object in the array, unless it is the last object in the array.
 
+// QUESTION :
+
 // Add a new album to the myMusic array. Add artist and title strings, release_year number, and a formats array of strings.
 
+// SOLUTION :
+const myMusic = [
+    {
+      "artist": "Billy Joel",
+      "title": "Piano Man",
+      "release_year": 1973,
+      "formats": [
+        "CD",
+        "8T",
+        "LP"
+      ],
+      "gold": true
+    },
+    {
+      "artist": "Billy",
+      "title": "Piano",
+      "release_year": 1990,
+      "formats": [
+        "CDW",
+        "8TO",
+        "LPU"
+      ],
+    }
+  ];
+  
+  myMusic.artist = "Billy";
+  myMusic.title = "Piano"
