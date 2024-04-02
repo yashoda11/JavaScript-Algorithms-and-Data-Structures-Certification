@@ -10,3 +10,13 @@
 
 // Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
 
+// SOLUTION :
+
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+
+for ( let total = 0; total < 20; total++){
+console.log(myArr[total]);
+}
+// Only change code below this line
